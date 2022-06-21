@@ -1,0 +1,41 @@
+- name: 首页
+  link: /home/
+
+- name: 简介
+  link: /about/
+  sublinks:
+    - name: 项目简介
+      link: /about/pro_ntroduction/
+
+    - name: 机构设置
+      link: /about/organizational_structure/
+
+    - name: 项目成员
+      link: /about/researchers/
+
+- name: 产品
+  link: /product/
+  sublinks:
+    - name: 小象IP
+      link: /product/research_direction/
+
+    - name: 定位玩偶
+      link: /product/research_projects/
+
+- name: 安全教育
+  link: /news/
+  sublinks:
+    - name: 文章
+      link: /news/news/
+
+    - name: 动态
+      link: /news/notification_announcements/
+
+- name: 创新
+  link: /innovation/
+
+- name: 引领教育
+  link: /education/
+
+#- name: 文件下载
+  #link: /download/

@@ -1,0 +1,15 @@
+---
+layout: default
+title: 首页
+permalink: /home/
+redirect_from:
+- /
+---
+
+<h2>{{ page.title }}</h2>
+<p>小组成员</p>
+<ul>
+  {% for post in site.posts %}
+  <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

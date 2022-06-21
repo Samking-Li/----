@@ -1,0 +1,28 @@
+# site scope vars
+timezone: Asia/Shanghai
+
+title: 放心玩偶
+title_en: 护卫出行安全的紧急定位装置
+email: 1594744173@qq.com
+baseurl: ""
+
+# 构建时排除的文件
+exclude:
+  - Gemfile*
+  - README.md
+  - auto_sync.sh
+  - install_jekyll.sh
+  - .*
+  - install_service.sh
+  - isc_site_auto_ci.service
+  - TIMESTAMP.txt
+
+plugins:
+  - jekyll-redirect-from
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"

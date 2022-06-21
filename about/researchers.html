@@ -1,0 +1,20 @@
+---
+layout: default
+title: 项目成员
+permalink: /about/researchers/
+---
+
+<h1>简介.项目成员</h1>
+<h2>张凯</h2>
+
+<ul>
+    {% for author in site.authors %}
+      <li>
+        <h2>{{ author.name }}</a></h2>
+        <h3>{{ author.position }}</h3>
+        <p>{{ author.content | markdownify }}</p>
+      </li>
+    {% endfor %}
+</ul>
+
+{{ page.url }}
